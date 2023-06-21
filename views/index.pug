@@ -1,0 +1,11 @@
+//- layout.pug
+html
+  head
+    title= title
+    block scripts
+      include ../static/index.js
+  body
+    block= content 
+    block foot
+      #footer
+        p= para
